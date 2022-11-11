@@ -1,0 +1,10 @@
+{
+  "name": "{{ tmplr.repo_name }}",
+  "version": "{{ tmplr.version }}",
+  "description": "{{ tmplr.description }}",
+  "main": "src/index.ts",
+  "repository": "{{ tmplr.repository }}",
+  "author": "{{ tmplr.author_name }} <{{ tmplr.author_email }}>",
+  "license": "MIT",
+  "private": true
+}
