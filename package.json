@@ -1,10 +1,10 @@
 {
-  "name": "{{ tmplr.repo_name }}",
-  "version": "{{ tmplr.version }}",
-  "description": "{{ tmplr.description }}",
-  "main": "src/index.ts",
-  "repository": "{{ tmplr.repository }}",
-  "author": "{{ tmplr.author_name }} <{{ tmplr.author_email }}>",
+  "name": "solid-start-app",
+  "version": "1.0.0",
+  "description": "A template for SolidStart applications",
+  "main": "index.js",
+  "repository": "https://github.com/nicholas-roether/solid-start-app.git",
+  "author": "Nicholas Roether <nicholas.roether@t-online.de>",
   "license": "MIT",
   "private": true
 }

@@ -23,8 +23,11 @@ steps:
     from: git.author_email
     fallback:
       prompt: "Author Email:"
+  - remove: package.json
   - remove: LICENSE
   - remove: README.md
+  - copy: .template/package.json
+    to: package.json
   - copy: .template/LICENSE
     to: LICENSE
   - copy: .template/README.md
