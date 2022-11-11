@@ -2,13 +2,19 @@ steps:
   - read: repo_name
     prompt: "Project Name:"
     default:
-      from: filesystem.rootdir
+      from: git.remote_name
+      fallback:
+        from: filesystem.rootdir
   - read: version
     prompt: "Version:"
     default: "1.0.0"
   - read: description
     prompt: "Project Description:"
     default: "A really solid start :)"
+  - read: repository
+    from: git.remote_url
+    fallback:
+      prompt: "Repository URL:"
   - read: author_name
     from: git.author_name
     fallback:
