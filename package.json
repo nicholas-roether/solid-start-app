@@ -6,5 +6,6 @@
   "repository": "https://github.com/nicholas-roether/solid-start-app.git",
   "author": "Nicholas Roether <nicholas.roether@t-online.de>",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "packageManager": "yarn@3.2.4"
 }
