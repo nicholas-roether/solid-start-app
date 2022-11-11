@@ -6,7 +6,7 @@ export default function Root() {
 	return (
 		<Html lang="en">
 			<Head>
-				<Title>TODO: REPLACE WITH PROJECT NAME</Title>
+				<Title>SolidStart App</Title>
 				<Meta charset="utf-8" />
 				<Meta name="viewport" content="width=device-with, initial-scale=1" />
 			</Head>
