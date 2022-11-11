@@ -3,6 +3,9 @@ steps:
     prompt: "Project Name:"
     default:
       from: filesystem.rootdir
+  - read: version
+    prompt: "Version:"
+    default: "1.0.0"
   - read: description
     prompt: "Project Description:"
     default: "A really solid start :)"
